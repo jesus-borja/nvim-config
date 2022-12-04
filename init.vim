@@ -6,20 +6,23 @@ set number 		" Indica el número de línea
 set relativenumber 	" Muestra la línea en la que está el cursor y las demás relativas a ésta
 set numberwidth=1	" Las columnas que tendrán los números de línea
 
+set guicursor = "" " el cursor se mantiene como bloque en insert mode
+
 set scrolloff=5   " Al menos 5 líneas sobre y debajo del cursor al hacer scroll
 
 set mouse=a		" Al copiar texto no se copiaran los numeros de línea
 
 set nowrap		" No continua la línea debajo si es muy grande
 
+
 " set cursorline " Para resaltar la línea actual
-set colorcolumn=100   " Mostrar una columna limite a 80 carácteres
+set colorcolumn=100   " Mostrar una columna limite a 100 carácteres
 
-" Indentación de 2 espacios
+" Indentación de 4 espacios
 
-set tabstop=3
-set shiftwidth=3
-set softtabstop=3
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set shiftround
 set expandtab		" Insertar espacios en lugar de tab
 
