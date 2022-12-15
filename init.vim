@@ -18,11 +18,11 @@ set nowrap		" No continua la línea debajo si es muy grande
 " set cursorline " Para resaltar la línea actual
 set colorcolumn=100   " Mostrar una columna limite a 100 carácteres
 
-" Indentación de 4 espacios
+" Indentación de 2 espacios
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set shiftround
 set expandtab		" Insertar espacios en lugar de tab
 
