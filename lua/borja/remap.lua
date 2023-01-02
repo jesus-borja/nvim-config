@@ -23,3 +23,7 @@ vim.keymap.set("n", "J", "mzJ`z")
 -- zz centers the cursor
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+-- centers the cursor when looking at the results of searching
+vim.keymap.set("n", "n", "nzz")
+vim.keymap.set("n", "N", "Nzz")
